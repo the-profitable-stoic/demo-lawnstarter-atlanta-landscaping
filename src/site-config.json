@@ -1,0 +1,624 @@
+{
+  "business": {
+    "name": "LawnStarter - Atlanta Landscaping",
+    "phone": "+14049984354",
+    "category": "landscaping company",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Atlanta's Premier Landscaping Services",
+      "heroSubline": "Transforming Atlanta properties, one yard at a time. Expert landscaping solutions tailored for Georgia's unique climate and soil.",
+      "aboutTitle": "Your Atlanta Landscaping Partner",
+      "aboutText": [
+        "LawnStarter Atlanta Landscaping was founded over a decade ago by a team of Atlanta natives who understood the specific challenges and opportunities of our local landscapes. We saw a need for reliable, high-quality landscaping services that catered to the unique needs of Atlanta homes and businesses.",
+        "Our approach is simple: understand your vision, assess the property's needs, and execute with precision and care. We value clear communication, meticulous attention to detail, and a commitment to exceeding expectations. We use sustainable practices whenever possible, ensuring the health of your landscape and the environment.",
+        "We're proud to be a part of the Atlanta community. We actively support local initiatives and believe in giving back to the neighborhoods we serve. We're not just landscapers; we're your neighbors, dedicated to making Atlanta a more beautiful place to live."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of Atlanta's climate, soil, and plant life."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "Consistent, on-time service you can depend on."
+        },
+        {
+          "title": "Custom Solutions",
+          "description": "Tailored landscaping plans to fit your unique needs and budget."
+        },
+        {
+          "title": "Satisfaction Guaranteed",
+          "description": "We stand behind our work and ensure your complete satisfaction."
+        }
+      ],
+      "ctaHeadline": "Ready to Transform Your Landscape?",
+      "ctaSubline": "Get a free quote today and discover the LawnStarter difference."
+    },
+    "services": [
+      {
+        "slug": "lawn-care",
+        "name": "Lawn Care",
+        "shortDescription": "Comprehensive lawn care services for a healthy, vibrant lawn.",
+        "description": "Our lawn care service is designed to keep your lawn healthy, green, and weed-free. We start with a thorough assessment of your lawn's condition, identifying any underlying issues like soil compaction, nutrient deficiencies, or pest infestations. We then develop a customized treatment plan that includes fertilization, weed control, aeration, and overseeding as needed. We use only the highest quality products and equipment to ensure optimal results. \n\nOur team understands the challenges of Atlanta lawns, from the red clay soil to the humid summers. We tailor our approach to address these specific challenges, promoting healthy root growth and disease resistance. We also offer seasonal services like leaf removal and winterization to protect your lawn year-round.\n\nWhether you have a small residential lawn or a large commercial property, we have the expertise and resources to keep it looking its best. We offer flexible scheduling options and competitive pricing to make lawn care convenient and affordable.",
+        "process": [
+          "Step 1: Lawn Assessment - Evaluate soil, grass type, and identify any problems.",
+          "Step 2: Customized Treatment Plan - Develop a plan for fertilization, weed control, and pest management.",
+          "Step 3: Professional Application - Apply treatments using high-quality products and equipment.",
+          "Step 4: Ongoing Maintenance - Regular mowing, edging, and blowing to keep your lawn looking its best."
+        ],
+        "benefits": [
+          "Healthy, green lawn",
+          "Weed-free and pest-free",
+          "Improved curb appeal",
+          "Reduced lawn maintenance"
+        ],
+        "faq": [
+          {
+            "question": "How often should I fertilize my lawn?",
+            "answer": "We recommend fertilizing your lawn at least twice a year, in the spring and fall. However, the specific frequency may vary depending on your grass type and soil conditions."
+          },
+          {
+            "question": "What type of weed control do you use?",
+            "answer": "We use a combination of pre-emergent and post-emergent herbicides to control weeds. Our products are safe for your lawn and the environment."
+          },
+          {
+            "question": "Do you offer organic lawn care options?",
+            "answer": "Yes, we offer organic lawn care options that use natural fertilizers and pest control methods. Contact us to learn more."
+          }
+        ]
+      },
+      {
+        "slug": "landscape-design",
+        "name": "Landscape Design",
+        "shortDescription": "Custom landscape design services to create your dream outdoor space.",
+        "description": "Transform your outdoor space with our expert landscape design services. We work closely with you to understand your vision, lifestyle, and budget, creating a custom design that reflects your unique style. Whether you're looking to create a relaxing backyard oasis, a vibrant front yard garden, or a functional outdoor living area, we can bring your ideas to life.\n\nOur design process begins with a consultation to discuss your goals and preferences. We then conduct a thorough site analysis, taking into account factors like sun exposure, soil conditions, and existing vegetation. We use this information to create a detailed design plan that includes plant selection, hardscape features, and lighting.\n\nWe handle every aspect of the design process, from initial concept to final installation. Our team of experienced landscape designers, horticulturists, and construction professionals work together to ensure a seamless and stress-free experience. We use only the highest quality materials and plants to ensure long-lasting beauty and functionality.",
+        "process": [
+          "Step 1: Consultation - Discuss your vision, budget, and preferences.",
+          "Step 2: Site Analysis - Evaluate your property's conditions and challenges.",
+          "Step 3: Design Development - Create a custom landscape design plan.",
+          "Step 4: Installation - Implement the design with expert craftsmanship."
+        ],
+        "benefits": [
+          "Increased property value",
+          "Enhanced curb appeal",
+          "Functional outdoor living space",
+          "Personalized design that reflects your style"
+        ],
+        "faq": [
+          {
+            "question": "How much does landscape design cost?",
+            "answer": "The cost of landscape design varies depending on the scope of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "How long does the design process take?",
+            "answer": "The design process typically takes 2-4 weeks, depending on the complexity of the project."
+          },
+          {
+            "question": "Do you offer maintenance services after installation?",
+            "answer": "Yes, we offer ongoing maintenance services to keep your landscape looking its best. We provide options for weekly, monthly, or seasonal maintenance."
+          }
+        ]
+      },
+      {
+        "slug": "hardscaping",
+        "name": "Hardscaping",
+        "shortDescription": "Expert hardscaping services for patios, walkways, retaining walls, and more.",
+        "description": "Enhance your outdoor space with our expert hardscaping services. We specialize in creating beautiful and functional hardscape features that complement your landscape and enhance your property's value. From patios and walkways to retaining walls and outdoor kitchens, we can bring your hardscaping dreams to life.\n\nOur team of experienced hardscaping professionals uses only the highest quality materials and techniques to ensure long-lasting durability and beauty. We work closely with you to understand your needs and preferences, creating custom hardscape designs that reflect your unique style.\n\nWe handle every aspect of the hardscaping process, from initial design to final installation. We pay close attention to detail, ensuring that every stone, brick, and paver is perfectly placed. We also offer a wide range of hardscaping materials to choose from, including natural stone, brick, pavers, and concrete.",
+        "process": [
+          "Step 1: Design Consultation - Discuss your hardscaping goals and preferences.",
+          "Step 2: Site Preparation - Prepare the site for hardscaping installation.",
+          "Step 3: Material Selection - Choose the right materials for your project.",
+          "Step 4: Installation - Install hardscape features with expert craftsmanship."
+        ],
+        "benefits": [
+          "Increased property value",
+          "Enhanced outdoor living space",
+          "Improved drainage and erosion control",
+          "Long-lasting durability and beauty"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to install a patio?",
+            "answer": "The installation time for a patio varies depending on the size and complexity of the project. We can provide you with a detailed timeline during the design consultation."
+          },
+          {
+            "question": "What type of materials do you use for retaining walls?",
+            "answer": "We use a variety of materials for retaining walls, including natural stone, concrete blocks, and timber. The best material for your project will depend on your budget and aesthetic preferences."
+          },
+          {
+            "question": "Do you offer warranties on your hardscaping work?",
+            "answer": "Yes, we offer warranties on our hardscaping work to ensure your satisfaction. Contact us to learn more about our warranty policies."
+          }
+        ]
+      },
+      {
+        "slug": "irrigation-systems",
+        "name": "Irrigation Systems",
+        "shortDescription": "Efficient irrigation systems for healthy lawns and gardens.",
+        "description": "Keep your lawn and garden healthy and vibrant with our efficient irrigation systems. We design and install custom irrigation systems that provide the right amount of water to your plants, conserving water and saving you money. Whether you need a new irrigation system or repairs to your existing system, we can help.\n\nOur team of experienced irrigation professionals understands the unique watering needs of Atlanta landscapes. We take into account factors like soil type, plant selection, and sun exposure to design an irrigation system that maximizes water efficiency and promotes healthy plant growth.\n\nWe offer a wide range of irrigation services, including sprinkler system installation, drip irrigation installation, and irrigation system repairs. We use only the highest quality components and equipment to ensure long-lasting reliability. We also offer ongoing maintenance services to keep your irrigation system running smoothly.",
+        "process": [
+          "Step 1: Site Assessment - Evaluate your property's watering needs.",
+          "Step 2: System Design - Design a custom irrigation system.",
+          "Step 3: Installation - Install the system with expert precision.",
+          "Step 4: Maintenance - Provide ongoing maintenance and repairs."
+        ],
+        "benefits": [
+          "Water conservation",
+          "Healthy lawn and garden",
+          "Reduced water bills",
+          "Convenient and reliable watering"
+        ],
+        "faq": [
+          {
+            "question": "How much does it cost to install an irrigation system?",
+            "answer": "The cost of irrigation system installation varies depending on the size and complexity of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "How often should I water my lawn?",
+            "answer": "The frequency of watering depends on factors like grass type, soil type, and weather conditions. We can provide you with a customized watering schedule during the system design process."
+          },
+          {
+            "question": "Do you offer smart irrigation systems?",
+            "answer": "Yes, we offer smart irrigation systems that use weather data and soil moisture sensors to automatically adjust watering schedules. These systems can save you even more water and money."
+          }
+        ]
+      },
+      {
+        "slug": "drainage-solutions",
+        "name": "Drainage Solutions",
+        "shortDescription": "Effective drainage solutions to protect your property from water damage.",
+        "description": "Protect your property from water damage with our effective drainage solutions. Atlanta's heavy spring thunderstorms can wreak havoc on your foundation and landscape. We design and install custom drainage systems that redirect water away from your home, preventing flooding, erosion, and foundation problems. Whether you need a French drain, a surface drain, or a sump pump, we can help.\n\nOur team of experienced drainage professionals understands the unique drainage challenges of Atlanta properties. We take into account factors like soil type, slope, and rainfall patterns to design a drainage system that effectively manages water runoff.\n\nWe offer a wide range of drainage services, including French drain installation, surface drain installation, and sump pump installation. We use only the highest quality materials and equipment to ensure long-lasting reliability. We also offer ongoing maintenance services to keep your drainage system functioning properly.",
+        "process": [
+          "Step 1: Site Evaluation - Assess your property's drainage problems.",
+          "Step 2: System Design - Design a custom drainage system.",
+          "Step 3: Installation - Install the system with expert precision.",
+          "Step 4: Maintenance - Provide ongoing maintenance and repairs."
+        ],
+        "benefits": [
+          "Protection from water damage",
+          "Prevention of flooding and erosion",
+          "Foundation protection",
+          "Improved property value"
+        ],
+        "faq": [
+          {
+            "question": "How much does it cost to install a drainage system?",
+            "answer": "The cost of drainage system installation varies depending on the scope of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "What is a French drain?",
+            "answer": "A French drain is a trench filled with gravel or rock that contains a perforated pipe. It is used to redirect water away from your home or other structures."
+          },
+          {
+            "question": "How often should I clean my drainage system?",
+            "answer": "We recommend cleaning your drainage system at least once a year to remove debris and prevent clogs."
+          }
+        ]
+      },
+      {
+        "slug": "seasonal-cleanup",
+        "name": "Seasonal Cleanup",
+        "shortDescription": "Spring and fall cleanup services for a tidy landscape.",
+        "description": "Keep your landscape looking its best with our seasonal cleanup services. We offer spring and fall cleanup services to remove leaves, debris, and overgrown vegetation, preparing your yard for the changing seasons. Our seasonal cleanup services will keep your property tidy and well-maintained.\n\nOur team of experienced landscapers uses the latest equipment and techniques to ensure a thorough and efficient cleanup. We remove all leaves, branches, and other debris from your lawn, gardens, and hardscape areas. We also prune shrubs and trees, remove dead plants, and apply mulch as needed.\n\nOur seasonal cleanup services are designed to save you time and effort, allowing you to enjoy your outdoor space without the hassle of yard work. We offer flexible scheduling options and competitive pricing to make seasonal cleanup convenient and affordable.",
+        "process": [
+          "Step 1: Debris Removal - Remove leaves, branches, and other debris.",
+          "Step 2: Pruning and Trimming - Prune shrubs and trees.",
+          "Step 3: Garden Bed Cleanup - Remove weeds and dead plants.",
+          "Step 4: Mulch Application - Apply mulch to garden beds."
+        ],
+        "benefits": [
+          "Tidy and well-maintained landscape",
+          "Preparation for changing seasons",
+          "Removal of leaves and debris",
+          "Pruning and trimming of shrubs and trees"
+        ],
+        "faq": [
+          {
+            "question": "How often should I schedule seasonal cleanup?",
+            "answer": "We recommend scheduling seasonal cleanup in the spring and fall to prepare your yard for the changing seasons."
+          },
+          {
+            "question": "What is included in your seasonal cleanup service?",
+            "answer": "Our seasonal cleanup service includes debris removal, pruning and trimming, garden bed cleanup, and mulch application."
+          },
+          {
+            "question": "Do you offer leaf removal services?",
+            "answer": "Yes, we offer leaf removal services as part of our seasonal cleanup package."
+          }
+        ]
+      },
+      {
+        "slug": "tree-services",
+        "name": "Tree Services",
+        "shortDescription": "Professional tree trimming, removal, and maintenance.",
+        "description": "Ensure the health and beauty of your trees with our professional tree services. From trimming and pruning to removal and maintenance, we provide comprehensive tree care solutions for Atlanta properties. Our certified arborists have the expertise and equipment to handle any tree-related task safely and efficiently.\n\nWe understand the importance of proper tree care for the health and longevity of your trees. Our tree trimming and pruning services promote healthy growth, improve tree structure, and enhance the appearance of your landscape. We also offer tree removal services for trees that are dead, diseased, or posing a safety hazard.\n\nOur team of experienced tree care professionals is committed to providing exceptional service and ensuring the safety of your property. We use the latest equipment and techniques to minimize disruption and protect your landscape. We also offer ongoing tree maintenance services to keep your trees healthy and thriving.",
+        "process": [
+          "Step 1: Tree Assessment - Evaluate the health and condition of your trees.",
+          "Step 2: Pruning and Trimming - Prune and trim trees to promote healthy growth.",
+          "Step 3: Tree Removal - Remove dead, diseased, or hazardous trees.",
+          "Step 4: Stump Grinding - Grind down tree stumps for a clean finish."
+        ],
+        "benefits": [
+          "Healthy and beautiful trees",
+          "Improved tree structure",
+          "Removal of hazardous trees",
+          "Enhanced property value"
+        ],
+        "faq": [
+          {
+            "question": "How often should I prune my trees?",
+            "answer": "The frequency of tree pruning depends on the species of tree and its age. We can provide you with a customized pruning schedule during the tree assessment."
+          },
+          {
+            "question": "How much does it cost to remove a tree?",
+            "answer": "The cost of tree removal varies depending on the size, location, and condition of the tree. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "Are you insured for tree services?",
+            "answer": "Yes, we are fully insured for tree services to protect your property in case of accidents."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Marietta",
+        "slug": "marietta-ga",
+        "state": "GA",
+        "content": "LawnStarter provides top-rated lawn care services in Marietta, Georgia. Known for its blend of historic charm and modern living, Marietta features many established subdivisions dating back to the 1960s and 70s. These mature neighborhoods often require specialized lawn care to maintain their beauty and value.\n\nOur local Marietta lawn care professionals understand the specific needs of these lawns. From weed control to fertilization, we provide customized services to keep your lawn looking its best. We also offer seasonal services like leaf removal and winterization to protect your lawn year-round. Let LawnStarter handle your lawn care, so you can enjoy all that Marietta has to offer.",
+        "localContext": "Marietta experiences hot, humid summers, which can stress lawns if not properly cared for. Proper watering and fertilization are crucial for maintaining a healthy lawn in this climate.",
+        "nearbyAreas": [
+          "Smyrna",
+          "Kennesaw",
+          "Roswell"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "slug": "roswell-ga",
+        "state": "GA",
+        "content": "LawnStarter offers reliable and affordable lawn care services in Roswell, Georgia.  A predominantly upscale suburban city, Roswell is characterized by its beautiful homes and well-maintained landscapes, particularly in the subdivisions developed in the 1980s and 90s. Keeping these lawns pristine requires consistent effort and expertise.\n\nOur Roswell lawn care professionals are equipped to handle all your lawn care needs, from basic mowing to more specialized services like aeration and overseeding. We understand the importance of a healthy, green lawn in Roswell and are committed to providing the highest quality service. We'll make sure your lawn is the envy of the neighborhood!",
+        "localContext": "Roswell's climate is characterized by hot, humid summers that favor warm-season grasses. However, these grasses require diligent watering and care to thrive in the Georgia heat.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Marietta",
+          "Sandy Springs"
+        ]
+      },
+      {
+        "city": "Alpharetta",
+        "slug": "alpharetta-ga",
+        "state": "GA",
+        "content": "LawnStarter is your go-to provider for expert lawn care services in Alpharetta, Georgia. This thriving city boasts numerous upscale developments built in the 1990s and 2000s, where immaculate landscaping is a hallmark. Residents of Alpharetta expect nothing less than perfection when it comes to their lawns.\n\nWe provide comprehensive lawn care solutions tailored to the specific needs of Alpharetta lawns. Whether you need routine mowing, fertilization, weed control, or more specialized services, our experienced professionals have you covered. We'll work with you to create a customized lawn care plan that fits your budget and keeps your lawn looking its best year-round.",
+        "localContext": "Alpharetta's hot, humid summers create ideal conditions for warm-season grasses such as Bermuda and Zoysia, commonly found in the area's upscale neighborhoods.",
+        "nearbyAreas": [
+          "Roswell",
+          "Johns Creek",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Johns Creek",
+        "slug": "johns-creek-ga",
+        "state": "GA",
+        "content": "LawnStarter delivers professional and convenient lawn care services to homeowners in Johns Creek, Georgia. Known for its upscale subdivisions and meticulously maintained properties, Johns Creek demands a high standard of lawn care. Residents take pride in their homes, and a beautiful lawn is an essential part of the overall appeal.\n\nOur Johns Creek lawn care experts offer a full range of services to keep your lawn healthy and vibrant. From mowing and edging to fertilization and pest control, we provide everything you need to achieve the lawn of your dreams. We also offer seasonal services like leaf removal and winterization to ensure your lawn is protected year-round.",
+        "localContext": "Johns Creek experiences hot, humid summers, which can be challenging for lawns. Proper irrigation and fertilization are key to maintaining a healthy, green lawn in this climate.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Suwanee",
+          "Duluth"
+        ]
+      },
+      {
+        "city": "Kennesaw",
+        "slug": "kennesaw-ga",
+        "state": "GA",
+        "content": "LawnStarter offers affordable and dependable lawn care services in Kennesaw, Georgia. This growing city features many suburban developments built in the 1980s and 90s, with lawns that require consistent care to maintain their appeal. We're here to help you keep your lawn looking great without breaking the bank.\n\nOur Kennesaw lawn care professionals provide a wide range of services to meet your needs. Whether you need basic mowing, weed control, or more specialized services like aeration and seeding, we have you covered. We're committed to providing high-quality service at an affordable price, so you can enjoy a beautiful lawn without the hassle.",
+        "localContext": "Kennesaw's hot, humid summers create ideal conditions for warm-season grasses. However, these grasses require regular maintenance to thrive in the Georgia heat.",
+        "nearbyAreas": [
+          "Marietta",
+          "Acworth",
+          "Smyrna"
+        ]
+      },
+      {
+        "city": "Smyrna",
+        "slug": "smyrna-ga",
+        "state": "GA",
+        "content": "LawnStarter provides lawn care services in Smyrna, GA. With a mix of older and newer homes, Smyrna lawns benefit from regular maintenance. We offer mowing, fertilization, and weed control to keep your lawn healthy and green.",
+        "localContext": "Smyrna's proximity to Atlanta impacts local landscaping trends.",
+        "nearbyAreas": [
+          "Marietta",
+          "Vinings",
+          "Atlanta"
+        ]
+      },
+      {
+        "city": "Sandy Springs",
+        "slug": "sandy-springs-ga",
+        "state": "GA",
+        "content": "LawnStarter offers lawn care services in Sandy Springs, GA. As an affluent suburb, Sandy Springs homes are known for their well-manicured lawns. We provide a range of services to maintain the area's high standards.",
+        "localContext": "Sandy Springs lawns often feature mature trees, requiring specific care strategies.",
+        "nearbyAreas": [
+          "Roswell",
+          "Atlanta",
+          "Dunwoody"
+        ]
+      },
+      {
+        "city": "Dunwoody",
+        "slug": "dunwoody-ga",
+        "state": "GA",
+        "content": "LawnStarter provides lawn care services in Dunwoody, GA. With established neighborhoods, Dunwoody lawns benefit from consistent maintenance. We offer services tailored to the area's needs.",
+        "localContext": "Dunwoody's family-friendly atmosphere emphasizes the importance of a safe and attractive lawn.",
+        "nearbyAreas": [
+          "Sandy Springs",
+          "Roswell",
+          "Brookhaven"
+        ]
+      },
+      {
+        "city": "Brookhaven",
+        "slug": "brookhaven-ga",
+        "state": "GA",
+        "content": "LawnStarter provides lawn care services in Brookhaven, GA. Brookhaven features a mix of historic homes and new developments. We offer comprehensive lawn services.",
+        "localContext": "Brookhaven features a mix of residential styles, impacting lawn design and care approaches.",
+        "nearbyAreas": [
+          "Atlanta",
+          "Chamblee",
+          "Buckhead"
+        ]
+      },
+      {
+        "city": "Milton",
+        "slug": "milton-ga",
+        "state": "GA",
+        "content": "LawnStarter provides lawn care services in Milton, GA. Characterized by larger properties, Milton lawns are often expansive and require significant upkeep. We offer comprehensive lawn maintenance services to keep your Milton property looking its best.",
+        "localContext": "Milton is known for its equestrian heritage, influencing landscape preferences.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Cumming",
+          "Canton"
+        ]
+      },
+      {
+        "city": "Suwanee",
+        "slug": "suwanee-ga",
+        "state": "GA",
+        "content": "LawnStarter provides lawn care services in Suwanee, GA. Suwanee's family-oriented community values well-maintained lawns and outdoor spaces. We offer comprehensive lawn care services to meet the needs of Suwanee residents.",
+        "localContext": "Suwanee's many parks highlight the importance of green spaces within the community.",
+        "nearbyAreas": [
+          "Johns Creek",
+          "Duluth",
+          "Buford"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Lawn Care",
+        "text": "LawnStarter has transformed my lawn! The team is professional, reliable, and always on time. My grass is greener and healthier than ever before. Highly recommend their lawn care services!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "John K.",
+        "rating": 4,
+        "service": "Landscape Design",
+        "text": "We hired LawnStarter for a complete landscape redesign of our backyard. The design process was collaborative, and the team was very responsive to our ideas. The finished product is stunning, although there were a couple of minor hiccups during installation that were quickly resolved.",
+        "date": "2025-04-01"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 5,
+        "service": "Hardscaping",
+        "text": "The hardscaping crew from LawnStarter did an amazing job installing a new patio in our backyard. The quality of the workmanship is outstanding, and the patio looks fantastic. We're already enjoying spending time outdoors!",
+        "date": "2025-04-15"
+      },
+      {
+        "name": "Michael S.",
+        "rating": 3,
+        "service": "Irrigation Systems",
+        "text": "I had LawnStarter install a new sprinkler system. The system works well, but the initial setup took longer than expected. Overall, I'm satisfied with the service, but communication could be improved.",
+        "date": "2025-05-01"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Drainage Solutions",
+        "text": "After years of dealing with water runoff problems, LawnStarter installed a French drain that completely solved the issue. The team was professional, efficient, and very knowledgeable. I highly recommend their drainage solutions.",
+        "date": "2025-05-15"
+      },
+      {
+        "name": "David B.",
+        "rating": 4,
+        "service": "Seasonal Cleanup",
+        "text": "LawnStarter's seasonal cleanup service is a lifesaver! They removed all the leaves and debris from my yard in no time. The crew was friendly and efficient. I'll definitely be using their services again next year.",
+        "date": "2025-06-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Atlanta Landscaping | Lawn Care Experts",
+        "description": "Top-rated Atlanta landscaping company. Lawn care, design, hardscaping, and more. Free quotes. Serving Atlanta and surrounding areas."
+      },
+      "about": {
+        "title": "About LawnStarter Atlanta Landscaping",
+        "description": "Learn about LawnStarter Atlanta Landscaping, our values, and our commitment to the Atlanta community."
+      },
+      "services": {
+        "title": "Atlanta Landscaping Services",
+        "description": "Comprehensive landscaping services in Atlanta. Lawn care, landscape design, hardscaping, irrigation, and more."
+      },
+      "contact": {
+        "title": "Contact LawnStarter Atlanta Landscaping",
+        "description": "Contact LawnStarter Atlanta Landscaping for a free quote or to schedule service. Atlanta's trusted landscaping experts."
+      },
+      "reviews": {
+        "title": "LawnStarter Atlanta Landscaping Reviews",
+        "description": "Read reviews from satisfied LawnStarter Atlanta Landscaping customers. See why we're Atlanta's top-rated landscaping company."
+      },
+      "service-areas": {
+        "title": "LawnStarter Service Areas",
+        "description": "LawnStarter provides landscaping services in Atlanta, Marietta, Roswell, Alpharetta, Johns Creek, and Kennesaw."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "lawn-care": "/images/service-lawn-care.webp",
+      "landscape-design": "/images/service-landscape-design.webp",
+      "hardscaping": "/images/service-hardscaping.webp",
+      "irrigation-systems": "/images/service-irrigation-systems.webp",
+      "drainage-solutions": "/images/service-drainage-solutions.webp",
+      "seasonal-cleanup": "/images/service-seasonal-cleanup.webp",
+      "tree-services": "/images/service-tree-services.webp"
+    },
+    "servicesResponsive": {
+      "lawn-care": {
+        "src": "/images/service-lawn-care.webp",
+        "srcset": "/images/service-lawn-care-400w.webp 400w, /images/service-lawn-care-800w.webp 800w, /images/service-lawn-care-1200w.webp 1200w, /images/service-lawn-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "landscape-design": {
+        "src": "/images/service-landscape-design.webp",
+        "srcset": "/images/service-landscape-design-400w.webp 400w, /images/service-landscape-design-800w.webp 800w, /images/service-landscape-design-1200w.webp 1200w, /images/service-landscape-design.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hardscaping": {
+        "src": "/images/service-hardscaping.webp",
+        "srcset": "/images/service-hardscaping-400w.webp 400w, /images/service-hardscaping-800w.webp 800w, /images/service-hardscaping-1200w.webp 1200w, /images/service-hardscaping.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "irrigation-systems": {
+        "src": "/images/service-irrigation-systems.webp",
+        "srcset": "/images/service-irrigation-systems-400w.webp 400w, /images/service-irrigation-systems-800w.webp 800w, /images/service-irrigation-systems-1200w.webp 1200w, /images/service-irrigation-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drainage-solutions": {
+        "src": "/images/service-drainage-solutions.webp",
+        "srcset": "/images/service-drainage-solutions-400w.webp 400w, /images/service-drainage-solutions-800w.webp 800w, /images/service-drainage-solutions-1200w.webp 1200w, /images/service-drainage-solutions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "seasonal-cleanup": {
+        "src": "/images/service-seasonal-cleanup.webp",
+        "srcset": "/images/service-seasonal-cleanup-400w.webp 400w, /images/service-seasonal-cleanup-800w.webp 800w, /images/service-seasonal-cleanup-1200w.webp 1200w, /images/service-seasonal-cleanup.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-services": {
+        "src": "/images/service-tree-services.webp",
+        "srcset": "/images/service-tree-services-400w.webp 400w, /images/service-tree-services-800w.webp 800w, /images/service-tree-services-1200w.webp 1200w, /images/service-tree-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
